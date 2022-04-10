@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
-//hi
+//hi1
     public void guess(View view){
         EditText number = (EditText) findViewById(R.id.editTextNumber);
         int num = Integer.parseInt(number.getText().toString());
